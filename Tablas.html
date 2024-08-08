@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas </title>
+</head>
+<body>
+    <div align="center">
+      <h1>Tablas</h1>
+        <h2>Ejercicio 1.</h2>
+        <p align>Titulo de tabla</p>
+        <table border="1">
+          <thead>
+            <tr>
+              <td rowspan="2"><b>Tabla Avanzada</b></td>
+              <th colspan="2">Cabecera Multiples columnas</th>
+            </tr>
+
+            <tr>
+              <td width="40%" align="center"><b>Primera Col. Cab.</b></td>
+              <td width="40%" align="center"><b>Segunda Col. Cab.</b></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td align="center"><b>Fila 1</b></td>
+              <td>Fila 1 Columna 1</td>
+              <td>Fila 1 columna 2</td>
+            </tr>
+            <tr>
+              <td align="center"><b>Fila 2</b></td>
+              <td>Fila 2 Columna 1</td>
+              <td>fila 2 Columna 2</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <td colspan="3">Pie de tabla.</td>
+          </tfoot>
+        </table>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <div align="center">
+        <h2>Ejercicio 2.</h2>
+        <h3 align="left">Análisis de ventas</h3>
+        <p>Análisis de ventas anuales</p>
+        <table border="1">
+            <thead>
+              <tr>
+                <td rowspan="2" align="center"><b>AÑO</b></td>
+                <th colspan="4">Expansión de ventas</th>
+              </tr>
+              <tr>
+                <td align="center"><b>Producto A</b></td>
+                <td align="center"><b>Producto B</b></td>
+                <td align="center"><b>Producto C</b></td>
+                <td align="center"><b>Producto D</b></td>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                <td align="center"><b>N-3</b></td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+              </tr>
+              <tr>
+                <td align="center"><b>N-2</b></td>
+                <td align="center">3</td>
+                <td align="center">5</td>
+                <td align="center">8</td>
+                <td align="center">4</td>
+              </tr>
+              <tr>
+                <td align="center"><b>N-1</b></td>
+                <td align="center">4</td>
+                <td align="center">4</td>
+                <td align="center">7</td>
+                <td align="center">3</td>
+              </tr>
+              <tr>
+                <td align="center"><b>N</b></td>
+                <td align="center">5</td>
+                <td align="center">7</td>
+                <td align="center">6</td>
+                <td align="center">2</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th rowspan="2" width="15%"><b>AÑO</b></th>
+                <td align="center"><b>Producto A</b></td>
+                <td align="center"><b>Producto B</b></td>
+                <td align="center"><b>Producto C</b></td>
+                <td align="center"><b>Producto D</b></td>
+              </tr>
+              
+              <td align="center" colspan="4"><b>Expansión de ventas</b></td>
+            </tfoot>
+          </table>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <div align="center">
+        <h2>Ejercicio 3.</h2>
+        <h3 align="center" style="color: red;">superOFERTA viaje a Nueva Zelanda</h3>
+        <table border="1">
+            <thead>
+              <tr>
+                <td rowspan="2" colspan="2" align="center"><b></b></td>
+                <th colspan="2">Hoteles 3 estrellas</th>
+                <td rowspan="2" colspan="2" align="center"><b>Hoteles 4 estrellas</b></td>
+              </tr>
+              <tr>
+                <td align="center"><b>Sólo alojamiento</b></td>
+                <td align="center"><b>Pensión completa</b></td>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                <td align="center" rowspan="2"><b>1 semana</b></td>
+                <td align="center"> <b> Avión turista </b> </td>
+                <td align="center"> 700 USD </td>
+                <td align="center"> 1000 USD </td>
+                <td align="center" rowspan="2"> 1500 USD </td>
+              </tr>
+              <tr>
+                <td align="center"><b>Avión preferente</b></td>
+                <td align="center">850 USD</td>
+                <td align="center">1150 USD</td>
+              </tr>
+              <tr>
+                <td align="center" colspan="2"><b>2 semanas</b></td>
+                <td align="center">1300 USD</td>
+                <td align="center">1850 USD</td>
+                <td align="center">2600 USD</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+
+      <br>
+      <hr><hr><hr>
+      <br>
+      <div align="center">
+        <h1>Formularios</h1>
+        <h2>Ejercicio 1.</h2>
+        <h3 align="left">Formulario estructurado</h3>
+        <div align="left">
+          <form >
+              <fieldset style="width: 400px;">
+                <legend >Datos personales</legend>
+                <label>Nombre</label> <br>
+                <input type="text" name="nombre"> <br>
+                <label>Apellidos</label><br>
+                <input type="text" name="apellidos" maxlength="10"> <br>
+                <label>DNI </label><br>
+                <input type="text" name="DNI"> <br><br>
+              </fieldset>
+              <fieldset style="width: 400px;">
+                <legend>Datos de conexión</legend>
+                <label>Nombre de usuario</label> <br>
+                <input type="text" name="nombre"> <br>
+                <label>Contraseña</label><br>
+                <input type="password" name="contraseña" maxlength="10"> <br>
+                <label>Repite la contraseña</label><br>
+                <input type="password" name="confcontraseña"> <br><br>
+              </fieldset>
+            <br><hr><br>
+          </form>
+        </div>
+        <h2>Ejercicio 2.</h2>
+        <h4 align="left">Formulario de pagos</h4>
+        <div align="left">
+          <form >
+              <fieldset style="width: 400px;">
+                <legend >MIS DATOS: </legend>
+                <br>
+                <ol>
+                  <li><label>Nombre: </label><input type="text" name="nombre" placeholder="Escriba aquí su nombre"> <br></li>
+                  <li><label>Correo electronico: </label><input type="email" name="email" placeholder="ejemplo@dominio.com"><br></li>
+                  <li><label>Teléfono: </label><input type="number" name="telefono" placeholder="ej. +34984530203"><br></li>
+                </ol>
+              </fieldset>
+              <fieldset style="width: 400px;">
+                <legend>Dirección</legend>
+                <br>
+                <ol>
+                  <li><label>Dirección: </label><textarea name="direccion"></textarea>
+                  <li><label>Código postar: </label><input type="text" name="codpostal" placeholder="CP"><br></li>
+                  <li><label>Ciudad: </label><input type="text" name="ciudad" placeholder="Ciudad"><br></li>
+                </ol>
+              </fieldset>
+              <fieldset style="width: 400px;">
+                <legend>Forma de pago</legend>
+                <br>
+                <ol>
+                  <li>
+                    <fieldset>
+                      <legend>Tarjetas de credito</legend>
+                      <ul>
+                        <li><input type="radio" name="visa">VISA</li>
+                        <li><input type="radio" name="american">American Express</li>
+                        <li><input type="radio" name="master">Master Card</li>
+                      </ul>
+                    </fieldset>
+                  <li><label>Número tarjeta: </label><input type="text" name="numtarjeta" placeholder="Número tarjeta"><br></li>
+                  <li><label>Código seguridad: </label><input type="text" name="codigo" placeholder="Código seguridad"><br></li>
+                  <li><label>Nombre tarjeta: </label><input type="text" name="nombretarjeta" placeholder="Nombre exacto tarjeta"><br></li>
+                </ol>
+              </fieldset>
+            <button type="submit">Comprar</button>
+          </form>
+        </div>
+      </div>
+      
+      <br>
+      <hr><hr><hr>
+      <br>
+      <div align="center">
+        <h1>Tablas con Formularios</h1>
+        <h2>Ejercicio 1.</h2>
+        <h3 align="left">Factura</h3>
+        <div align="left">
+          <form>
+            <table border="1">
+              <thead>
+                <tr>
+                    <td colspan="2" rowspan="5" align="center">
+                        <label><b>SUPERMERCADOS<br>"LA VENDEDORA"</b></label>
+                        <td colspan="2"></td>
+                    </td>
+                    <td colspan="2" align="center">
+                      <input type="text" name="fecha" value="25/04/2011">
+                    </td>
+                    
+                </tr>
+                <tr>
+                  <td colspan="3" align="center">
+                    <strong>Nº Fra.: <input type="text" name="numfactura" value="2456/00" style="width: 100px;"></strong>
+                  </td>
+                </tr>
+                <tr>
+                    <td align="right"><b>Cliente:</b></td>
+                    <td colspan="2"><input type="text" value="Juan Francisco Redrován" style="text-align: left; width: 325px;"></td>
+                </tr>
+                <tr>
+                  <td align="right"><b>RUC:</b></td>
+                  <td colspan="2"><input type="text" value="1804562738" style="text-align: left; width: 325px;"></td>
+                </tr>
+                <tr>
+                  <td align="right"><b>Dirección:</b></td>
+                  <td colspan="2"><input type="text" value="Ambato, Av. Cevallos"  style="text-align: left; width: 325px;"></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th style="width: 70px;">CÓDIGO</th>
+                  <th style="width: 100px;">CANTIDAD</th>
+                  <th style="width: 300px;">CONCEPTO</th>
+                  <th style="width: 70px;">PRECIO</th>
+                  <th>IMPORTE</th>
+              </tr>
+              <tr>
+                  <td><input type="text" name="codigo1" value="A23" style="width: 70px;"></td>
+                  <td><input type="number" name="cantidad1" value="20" style="text-align: right; width: 100px;"></td>
+                  <td><input type="text" name="concepto1" value="LAPICES" style="width: 300px;"></td>
+                  <td><input type="number" name="precio1" value="25" style="text-align: center; width: 150px;"></td>
+                  <td><input type="number" name="importe1" value="500" style="text-align: right;"></td>
+              </tr>
+              <tr>
+                  <td><input type="text" name="codigo2" value="A45" style="width: 70px;"></td>
+                  <td><input type="number" name="cantidad2" value="100" style="text-align: right; width: 100px"></td>
+                  <td><input type="text" name="concepto2" value="BORRADORES" style="width: 300px;"></td>
+                  <td><input type="number" name="precio2" value="10"  style="text-align: center; width: 150px;"></td>
+                  <td><input type="number" name="importe2" value="1000" style="text-align: right;"></td>
+              </tr>
+              <tr>
+                <td><input type="text" name="codigo3" value="" style="width: 70px;"></td>
+                <td><input type="number" name="cantidad3" value="" style="text-align: right; width: 100px; "></td>
+                <td><input type="text" name="concepto3" value="" style="width: 300px;"></td>
+                <td><input type="number" name="precio3" value=""  style="text-align: center; width: 150px;"></td>
+                <td><input type="number" name="importe3" value="" style="text-align: right;"></td>
+              </tr>
+              <tr>
+                <td><input type="text" name="codigo4" value="" style="width: 70px;"></td>
+                <td><input type="number" name="cantidad4" value="" style="text-align: right; width: 100px;"></td>
+                <td><input type="text" name="concepto4" value="" style="width: 300px;"></td>
+                <td><input type="number" name="precio4" value=""  style="text-align: center; width: 150px;"></td>
+                <td><input type="number" name="importe4" value="" style="text-align: right;"></td>
+              </tr>
+              <tr>
+                  <td colspan="3" rowspan="4"></td>
+                  <td style="width: 150px;
+                  
+                  "><b>Importe:</b></td>
+                  <td><input type="number" name="importe_total" value="1500" style="text-align: right;"></td>
+              </tr>
+              <tr>
+                  <td><b>Descuento:</b></td>
+                  <td><input type="number" name="descuento" value="75" style="text-align: right;"></td>
+              </tr>
+              <tr>
+                  <td><b>Base imponible:</b></td>
+                  <td><input type="number" name="base_imponible" value="1425" style="text-align: right;"></td>
+              </tr>
+              <tr>
+                  <td><b>I.V.A.:</b></td>
+                  <td><input type="number" name="iva" value="228" style="text-align: right;"></td>
+              </tr>
+              </tbody>
+              <tfoot>
+                <tr height="50px">
+                  <td colspan="4" align="center"><strong><b>TOTAL FACTURA</b></strong></td>
+                  <td><b><input type="number" name="total_factura" value="1653" style="text-align: right; height: 50px;"></b></td>
+                </tr>
+              </tfoot>
+            </table>
+        </form>
+        <br><br><br><br>
+        </div>
+        <br>
+        <hr>
+        <br>
+          <h2>Ejercicio 2.</h2>
+          <h3 align="left">Formulario personal</h3>
+          <div align="left">
+    <form>
+        <table border="1">
+            <!-- Información personal -->
+            
+            <tr>
+              <td colspan="8" align="center" style="background-color: rgb(57, 180, 57); color: white;"><h2>Machote de Inventario de Personal</h2>
+            </tr>
+             <tr> 
+                <td colspan="8" align="right"><b>Inventario de Personal</b</td>
+            </tr>
+            <tr>
+                <td>NOMBRE</td>
+                <td colspan="8"><input type="text" name="nombre" style="width: 790px;"></td>
+            </tr>
+            <tr> 
+                <td>DIRECCION</td>
+                <td colspan="8"><input type="text" name="direccion" style="width: 790px;"></td>
+            </tr>
+            <tr>
+                <td>TELEFONO</td>
+                <td><input type="number" name="telefono" style="width: 200px;"></td>
+                <td style="width: 20px;"></td>
+                <td>ESTADO CIVIL</td>
+                <td colspan="4"><input type="text" name="estado_civil" style="width: 375px;"></td>
+            </tr>
+            <tr>
+                <td>COMPAÑÍA DE SEGUROS</td>
+                <td colspan="3"><input type="text" name="compania_seguros" style="width: 400px;"></td>
+                <td style="width: 200px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+              <td colspan="8" style="height: 20px; background-color: rgb(231, 226, 153);"></td>
+            </tr>
+            
+            <!-- Estado general de salud -->
+            <tr>
+                <td colspan="2">ESTADO GENERAL DE SALUD</td>
+                <td colspan="4"><strong>Marca con una X la opcion</strong></td>
+            </tr>
+            <tr>
+                <td>HEPATITIS</td>
+                <td><input type="checkbox" name="hepatitis"></td>
+                <td>GASTRITIS</td>
+                <td><input type="checkbox" name="gastritis"></td>
+                <td>ASMA</td>
+                <td><input type="checkbox" name="asma"></td>
+            </tr>
+            <tr>
+                <td>ANEMIAS</td>
+                <td><input type="checkbox" name="anemias"></td>
+                <td>DIABETES</td>
+                <td><input type="checkbox" name="diabetes"></td>
+                <td>ALERGIAS</td>
+                <td><input type="checkbox" name="alergias"></td>
+            </tr>
+            <tr>
+                <td>HIPE. ARTERIAL</td>
+                <td><input type="checkbox" name="hipe_arterial"></td>
+                <td>HIPO. ARTERIAL</td>
+                <td><input type="checkbox" name="hipo_arterial"></td>
+                <td>OTRO:</td>
+                <td colspan="1"><input type="text" name="otro"></td>
+            </tr>
+            <tr>
+                <td>CELIACO</td>
+                <td><input type="checkbox" name="celiaco"></td>
+                <td>EPILEPSIA</td>
+                <td><input type="checkbox" name="epilepsia"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+              <td colspan="8" style="height: 20px; background-color: rgb(231, 226, 153);"></td>
+            </tr>
+            <tr>
+                
+            </tr>
+            
+            <!-- Experiencia laboral -->
+            <tr>
+                <td colspan="2" class="section-title">EXPERIENCIA LABORAL</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>EMPRESA</td>
+                <td colspan="8"><input type="text" name="empresa"></td>
+            </tr>
+            <tr>
+                <td>NOMBRE DEL PUESTO</td>
+                <td colspan="8"><input type="text" name="nombre_puesto"></td>
+            </tr>
+            <tr>
+                <td>FUNCIONES DEL PUESTO</td>
+                <td colspan="8"><input type="text" name="funciones_puesto"></td>
+            </tr>
+            <tr>
+              <td><input></td>
+              <td><input></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+            <td colspan="8" style="height: 20px; background-color: rgb(231, 226, 153);"></td>
+          </tr>
+            <!-- Formación académica -->
+            <tr>
+                <td colspan="4" class="section-title">FORMACIÓN ACADÉMICA</td>
+            </tr>
+            <tr>
+                <td>ESCOLARIDAD</td>
+                <td colspan="3"><input type="text" name="escolaridad"></td>
+            </tr>
+            <tr>
+                <td>ESCUELA</td>
+                <td colspan="3"><input type="text" name="escuela"></td>
+            </tr>
+            <tr>
+                <td>PROFESIÓN</td>
+                <td colspan="3"><input type="text" name="profesion"></td>
+            </tr>
+            
+            <!-- Estudios adicionales -->
+            <tr>
+                <td colspan="4" class="section-title">ESTUDIOS ADICIONALES</td>
+            </tr>
+            <tr>
+                <td>ENTIDAD O ESCUELA</td>
+                <td colspan="3"><input type="text" name="entidad_escuela"></td>
+            </tr>
+            <tr>
+                <td>TÍTULO</td>
+                <td colspan="3"><input type="text" name="titulo"></td>
+            </tr>
+            
+            <!-- Información adicional -->
+            <tr>
+                <td colspan="4" class="section-title">INFORMACIÓN ADICIONAL</td>
+            </tr>
+            <tr>
+                <td>PUESTO</td>
+                <td colspan="3"><input type="text" name="puesto"></td>
+            </tr>
+            <tr>
+                <td>No. EMPLEADO</td>
+                <td colspan="3"><input type="text" name="no_empleado"></td>
+            </tr>
+            <tr>
+                <td>No. AÑOS EN EL PUESTO</td>
+                <td colspan="3"><input type="text" name="no_anos_puesto"></td>
+            </tr>
+            <tr>
+                <td>PUESTOS ANTERIORES</td>
+                <td colspan="3"><input type="text" name="puestos_anteriores"></td>
+            </tr>
+            <tr>
+                <td>COMENTARIOS</td>
+                <td colspan="3"><input type="text" name="comentarios"></td>
+            </tr>
+        </table>
+    </form>
+          <br><br><br><br>
+          </div>
+</body>
+</html>
